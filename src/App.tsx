@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import FetchingHook from "./componentes/FetchingHook.tsx";
+import FetchData from "./componentes/FetchData.tsx";
+// import FetchingHook from "./componentes/FetchingHook.tsx";
 // import FetchingBase from "./componentes/FetchingBase.tsx";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <>
           <h1 className="display-1">Hola desde Api App React</h1>
           {/*<FetchingBase />*/}
-          <FetchingHook />
+          {/*<FetchingHook />*/}
+          <FetchData />
       </>
   )
 }
